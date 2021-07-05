@@ -24,7 +24,7 @@ RUN \
 RUN \
     svn co --quiet https://develop.svn.wordpress.org/tags/5.7.2/tests/phpunit/includes/ /tmp/wordpress-tests-lib/includes 
 RUN \
-    svn co https://develop.svn.wordpress.org/tags/5.7.2/tests/phpunit/data/ /tmp/wordpress-tests-lib/data
+    #svn co https://develop.svn.wordpress.org/tags/5.7.2/tests/phpunit/data/ /tmp/wordpress-tests-lib/data
     #3.4 set owner and permissions
 RUN \
     chown -R www-data:www-data /tmp/wordpress \
